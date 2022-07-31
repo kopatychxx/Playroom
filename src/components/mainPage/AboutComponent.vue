@@ -95,6 +95,7 @@ export default {
   .aboutComponent {
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 30px;
   }
   .aboutComponent__text h3,
   .aboutComponent__text p {

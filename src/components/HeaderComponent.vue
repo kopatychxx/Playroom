@@ -127,6 +127,7 @@
     </div>
     <v-app-bar-nav-icon class="header__menu-mobile-btn" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     <v-navigation-drawer
+      v-show="drawer"
       width="400px"
       v-model="drawer"
       absolute
