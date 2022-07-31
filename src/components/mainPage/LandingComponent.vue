@@ -46,6 +46,7 @@ h2{
   font-size: 24px;
   color: #000000;
   text-align: right;
+  margin: 0;
 }
 .landingComponent__content p span {
   font-weight: 400;
@@ -64,6 +65,25 @@ h2{
   .landingComponent__content p span{
     font-size: 15px;
     width: 250px;
+  }
+}
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .landingComponent__content p,
+  .landingComponent__content p span{
+    font-size: 13px;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 375px){
+  .landingComponent {
+    margin-top: 30px;
   }
 }
 </style>

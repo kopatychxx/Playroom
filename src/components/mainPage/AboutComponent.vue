@@ -91,4 +91,14 @@ export default {
     font-size: 18px;
   }
 }
+@media screen and (max-width: 425px) {
+  .aboutComponent {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .aboutComponent__text h3,
+  .aboutComponent__text p {
+    text-align: center;
+  }
+}
 </style>
