@@ -6,6 +6,7 @@
     <ScheduleComponent />
     <LessonsComponent />
     <GroupsComponent />
+    <PriceComponent />
   </v-main>
 </template>
 
@@ -17,10 +18,12 @@ import BenefitsComponent from '@/components/mainPage/BenefitsComponent'
 import ScheduleComponent from '@/components/mainPage/ScheduleComponent'
 import LessonsComponent from '@/components/mainPage/LessonsComponent'
 import GroupsComponent from '@/components/mainPage/GroupsComponent'
+import PriceComponent from '@/components/mainPage/PriceComponent'
 export default {
   name: 'HomeView',
 
   components: {
+    PriceComponent,
     GroupsComponent,
     LessonsComponent,
     ScheduleComponent,
