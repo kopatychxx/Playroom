@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProgramView from '@/views/ProgramView'
+import InfrastructureView from '@/views/InfrastructureView'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/program',
     name: 'program',
     component: ProgramView
+  },
+  {
+    path: '/infrastructure',
+    name: 'Infrastructure',
+    component: InfrastructureView
   }
 ]
 
