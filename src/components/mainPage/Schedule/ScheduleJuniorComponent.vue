@@ -105,8 +105,6 @@ export default {
   .slider {
     width: 500px;
   }
-}
-@media screen and (max-width: 768px){
   .slidegroup{
     padding: 0 !important;
   }
