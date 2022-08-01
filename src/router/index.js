@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import ProgramView from '@/views/ProgramView'
 import InfrastructureView from '@/views/InfrastructureView'
 import FoodView from '@/views/FoodView'
+import ScheduleView from '@/views/ScheduleView'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/food',
     name: 'Food',
     component: FoodView
+  },
+  {
+    path: '/schedule',
+    name: 'Schedule',
+    component: ScheduleView
   }
 ]
 
