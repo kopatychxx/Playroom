@@ -5,6 +5,7 @@ import ProgramView from '@/views/ProgramView'
 import InfrastructureView from '@/views/InfrastructureView'
 import FoodView from '@/views/FoodView'
 import ScheduleView from '@/views/ScheduleView'
+import PriceView from '@/views/PriceView'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/schedule',
     name: 'Schedule',
     component: ScheduleView
+  },
+  {
+    path: '/price',
+    name: 'Price',
+    component: PriceView
   }
 ]
 
